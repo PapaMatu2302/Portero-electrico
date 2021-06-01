@@ -1,0 +1,48 @@
+.botones{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+    margin-top: 10px;
+    color: grey;
+    justify-content: center;
+}
+.botones > button{
+    background-color: dimgrey;
+    margin-top: 10px;
+}
+.visores {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.visores >input{
+    background-color: black;
+    color: chartreuse;
+    font-family: monospace;
+}
+.visorMensaje{
+    border-radius: 20px;
+    border: 10px solid; 
+    color: black; 
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.visorMensaje > input{
+    width: 500px;
+    align-content: center;
+    color: chartreuse;
+    background-color: black;
+    font-family: monospace;
+}
+.porteroCompleto {
+    border-radius: 25px;
+    background-color: darkgray;
+
+
+}
+

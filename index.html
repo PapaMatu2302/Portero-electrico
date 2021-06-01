@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <title>Portero</title>
+    <body>
+      <div class="porteroCompleto">
+      <div class="botones">
+        <button type="button" onclick="ingresar(1)">1</button>
+        <button type="button" onclick="ingresar(2)">2</button>
+        <button type="button" onclick="ingresar(3)">3</button>
+        <button type="button" onclick="ingresar(4)">4</button>
+        <button type="button" onclick="ingresar(5)">5</button>
+        <button type="button" onclick="ingresar(6)">6</button>
+        <button type="button" onclick="ingresar(7)">7</button>
+        <button type="button" onclick="ingresar(8)">8</button>
+        <button type="button" onclick="ingresar(9)">9</button>
+        <button type="button" onclick="ingresar(0)">0</button>
+        <button type="button" onclick="llamar()">Llamar</button>
+        <button type="button" onclick="borrar()">Borrar</button>
+      </div>
+      <div class="visores">
+        <input type="text" id="visorPiso" placeholder="Piso" readonly/>
+        <input type="text" id="visorDepto" placeholder="Departamento" readonly/>
+        <br />
+      </div>
+      <div class="visorMensaje">
+        <input
+          type="text" id="mensaje" readonly
+        />
+      </div>
+    </div>
+      <script src="js/application.js"></script>
+    </body>
+  </head>
+</html>
